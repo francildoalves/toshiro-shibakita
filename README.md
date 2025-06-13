@@ -1,4 +1,4 @@
-## 📦 Projeto: Microsserviços com Docker – Inspirado em Toshiro Shibakita
+## 📦 Projeto: Microsserviços com Docker
 
 Este projeto foi desenvolvido como parte do **Desafio de Projeto** do **BootCamp Santander - Linux para Iniciantes**, promovido pela [DIO (Digital Innovation One)](https://web.dio.me/).
 
@@ -40,7 +40,7 @@ toshiro-shibakita/
 
 * 🐳 **Docker**
 * 🌐 **Nginx** (load balancing)
-* 🐘 **PHP** (versão disponível na imagem base)
+* 🐘 **PHP** 
 * 🐬 **MySQL**
 * 📄 **SQL**
 * 🐧 **Linux (Ubuntu Server)**
@@ -99,7 +99,7 @@ docker run -d -p 4500:4500 --name nginx-loadbalancer custom-nginx
 
 ### 📌 Melhorias Futuras (To-Do)
 
-### :wrench: Melhorias Futuras (To-Do)
+### :wrench: Sugestão de Melhorias Futuras (To-Do)
 
 | Status | Descrição                                                                 | Justificativa                                                                                   |
 |--------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
@@ -113,7 +113,6 @@ docker run -d -p 4500:4500 --name nginx-loadbalancer custom-nginx
 | [ ]    | Adicionar testes automatizados para conexão e inserção no banco           | Garante que as funcionalidades principais estão funcionando após alterações ou deploys.         |
 | [ ]    | Criar documentação técnica e fluxograma do projeto                        | Ajuda novos desenvolvedores a entenderem rapidamente o projeto.                                 |
 | [ ]    | Criar script de inicialização (entrypoint.sh) para containers             | Automatiza o processo de setup do ambiente, criação de tabelas, etc.                            |
-
 
 ---
 
