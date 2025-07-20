@@ -26,7 +26,7 @@ Inspirado na história de superação de **Toshiro Shibakita**, este projeto é 
 ### 📁 Estrutura do Projeto
 
 ```bash
-toshiro-shibakita/
+dio-toshiro-shibakita/
 ├── index.php           # Script PHP que insere dados randômicos no banco
 ├── nginx.conf          # Configuração do Nginx com balanceamento de carga
 ├── Dockerfile          # Imagem customizada com Nginx e config personalizada
